@@ -31,6 +31,6 @@ export default {
     commonjs(),
     typescript(),
     emptyDir(),
-    isProduction && zip({ dir: 'releases' }),
+    /* isProduction &&  */zip({ dir: 'releases' }),
   ],
 }
